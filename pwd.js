@@ -1,6 +1,6 @@
 //Print working directory
 
-function pwd () {
+function pwd() {
   let dir = process.cwd();
   process.stdout.write(`${dir}`);
   process.stdout.write('\nprompt > ');
